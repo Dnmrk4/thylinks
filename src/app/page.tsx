@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="relative w-full max-h-screen justify-center text-center gap-3 h-full flex flex-col items-center overflow-hidden">
         {/* Music Section */}
-        <div className="mx-auto my-auto mt-12 w-full m-1 p-1 bottom-0">
+        <div className="mx-auto  mt-12 md:mt-100 w-full m-1 p-1 bottom-0">
           <Music />
         </div>
 

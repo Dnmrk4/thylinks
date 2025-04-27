@@ -28,7 +28,7 @@ const videos = [
 export default function Videos() {
   return (
     <div className="flex flex-col mx-auto mt-0 justify-center relative text-white overflow-scroll">
-      <h1 className="text-2xl font-bold mb-6 text-center">Videos</h1>
+      <h1 className="text-2xl  mb-6 text-center">Videos</h1>
 
       {/* Video Cards */}
       <div className="flex flex-row gap-3 overflow-x-scroll scroll-auto scrollbar-hide md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6">

@@ -7,14 +7,14 @@ import Link from "next/link";
 function Music() {
   return (
     <>
-      <div className="flex flex-col max-w-screen w-full overflow-hidden justify-center mx-auto">
-        <h2 className="text-md text-center  font-bold mx-auto">Music</h2>
+      <div className="flex flex-col max-w-screen w-full overflow-hidden justify-center mx-auto my-auto">
+        <h2 className="text-2xl text-center  font-bold mx-auto">Music</h2>
         <div className="flex flex-row md:flex-wrap mx-auto justify-center max-w-screen w-full overflow-hidden scroll-auto scrollbar-hide">
           {/* Card 1 */}
           <Link href="/shirolinks">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center ">
               <div className="mt-1 p-3 rounded-sm overflow-hidden shadow-lg">
-                <div className="relative h-19 w-19 md:h-48 md:w-48">
+                <div className="relative hover:h-20 hover:w-20 md:hover:h-49 md:hover:w-49 h-19 w-19 md:h-48 md:w-48">
                   <Image
                     src="/shiro.jpg"
                     alt="Shiro"
@@ -35,7 +35,7 @@ function Music() {
           <Link href="/timingyaGodlinks">
             <div className="flex flex-col items-center">
               <div className="mt-1 p-3 rounded-sm overflow-hidden shadow-lg">
-                <div className="relative h-19 w-19 md:h-48 md:w-48">
+                <div className="relative hover:h-20 hover:w-20 md:hover:h-49 md:hover:w-49 h-19 w-19 md:h-48 md:w-48">
                   <Image
                     src="/timing.jpg"
                     alt="Timing ya God"
@@ -56,7 +56,7 @@ function Music() {
           <Link href="/likeyuuhlinks">
             <div className="flex flex-col items-center">
               <div className="mt-1 p-3 rounded-sm overflow-hidden shadow-lg">
-                <div className="relative h-19 w-19 md:h-48 md:w-48">
+                <div className="relative hover:h-20 hover:w-20 md:hover:h-49 md:hover:w-49 h-19 w-19 md:h-48 md:w-48">
                   <Image
                     src="/yuuh.jpg"
                     alt="Like Yuuh!"
@@ -77,7 +77,7 @@ function Music() {
           <Link href="/fyilinks">
             <div className="flex flex-col items-center">
               <div className="mt-1 p-3 rounded-sm overflow-hidden shadow-lg">
-                <div className="relative h-19 w-19 md:h-48 md:w-48">
+                <div className="relative hover:h-20 hover:w-20 md:hover:h-49 md:hover:w-49 h-19 w-19 md:h-48 md:w-48">
                   <Image
                     src="/fyi.jpg"
                     alt="FYI"

@@ -34,14 +34,14 @@ export default function RootLayout({
         {/* Video Background */}
         <div className="absolute inset-0 -z-10">
           <video
-            className="w-full min-h-screen object-cover"
+            className="w-full min-h-screen md:min-h-full object-cover"
             src="/test.mp4"
             autoPlay
             loop
             muted
           />
           {/* Black Overlay */}
-          <div className="absolute min-h-screen inset-0 bg-black/50" />
+          <div className="absolute min-h-screen md:min-h-full inset-0 bg-black/50" />
         </div>
 
         {/* Main Content */}
