@@ -32,20 +32,20 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* Video Background */}
-        <div className="absolute inset-0 -z-10">
+        <div className="absolute inset-0 -z-10 h-screen">
           <video
-            className="w-full min-h-screen md:min-h-full object-cover"
+            className="w-full h-full object-cover"
             src="/test.mp4"
             autoPlay
             loop
             muted
           />
           {/* Black Overlay */}
-          <div className="absolute min-h-screen md:min-h-full inset-0 bg-black/50" />
+          <div className="absolute inset-0 backdrop-blur-sm bg-black/50" />
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col min-h-screen relative">
+        <div className="flex flex-col min-h-screen">
           {/* Navbar */}
           <div className="fixed top-0 left-0 w-full z-10">
             <Navbarz />
@@ -57,9 +57,7 @@ export default function RootLayout({
           </main>
 
           {/* Footer */}
-          <div className="w-full z-10">
-            <Footer />
-          </div>
+          <Footer />
         </div>
       </body>
     </html>

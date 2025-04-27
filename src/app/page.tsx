@@ -9,14 +9,14 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <div className="relative w-full max-h-screen justify-center text-center gap-3 h-full flex flex-col items-center overflow-hidden">
+      <div className="relative w-full  flex flex-col items-center justify-start text-center gap-12 overflow-hidden">
         {/* Music Section */}
-        <div className="mx-auto  mt-12 md:mt-100 w-full m-1 p-1 bottom-0">
+        <div className="mx-auto mt-4 md:mt-6 w-full px-4">
           <Music />
         </div>
 
         {/* Videos Section */}
-        <div className="flex m-3 items-center mx-auto  px-2 mt-12 w-full h-auto p-1 bottom-0">
+        <div className="flex items-center mx-auto px-4 mt-8 md:mt-10 w-full">
           <Videos />
         </div>
       </div>

@@ -31,15 +31,15 @@ export default function Videos() {
       <h1 className="text-xl font-bold  mb-6 text-center">Videos</h1>
 
       {/* Video Cards */}
-      <div className="flex flex-row gap-3 overflow-x-scroll scroll-auto scrollbar-hide md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6">
+      <div className="flex flex-row gap-3 overflow-x-scroll scroll-smooth snap-x scrollbar-hide md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6">
         {videos.map((video) => (
           <div
             key={video.id}
-            className="inline-block flex-shrink-0 w-64 md:w-auto"
+            className="inline-block flex-shrink-0  w-84 md:w-auto"
           >
             {/* Video */}
             <iframe
-              className="w-full h-48 rounded-md"
+              className="w-full h-48  snap-center rounded-md"
               src={video.url}
               title={video.title}
               frameBorder="0"

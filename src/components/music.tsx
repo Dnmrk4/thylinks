@@ -7,9 +7,9 @@ import Link from "next/link";
 function Music() {
   return (
     <>
-      <div className="flex flex-col max-w-screen w-full overflow-hidden justify-center mx-auto my-auto">
-        <h2 className="text-2xl text-center  font-bold mx-auto">Music</h2>
-        <div className="flex flex-row md:flex-wrap mx-auto justify-center max-w-screen w-full overflow-hidden scroll-auto scrollbar-hide">
+      <div className="flex flex-col max-w-screen w-full overflow-hidden justify-center mx-auto ">
+        <h2 className="text-2xl text-center p-3 font-bold mx-auto">Music</h2>
+        <div className="flex flex-row md:flex-wrap gap-0 md:gap-3 mx-auto justify-center max-w-screen w-full overflow-hidden scroll-auto scrollbar-hide">
           {/* Card 1 */}
           <Link href="/shirolinks">
             <div className="flex flex-col items-center ">

@@ -13,6 +13,14 @@ function Socials() {
   return (
     <div className="flex justify-center gap-4 py-4">
       <a
+        href="https://www.youtube.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white hover:text-gray-400"
+      >
+        <FaYoutube size={24} />
+      </a>
+      <a
         href="https://www.instagram.com"
         target="_blank"
         rel="noopener noreferrer"
@@ -28,14 +36,7 @@ function Socials() {
       >
         <FaFacebook size={24} />
       </a>
-      <a
-        href="https://www.youtube.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-white hover:text-gray-400"
-      >
-        <FaYoutube size={24} />
-      </a>
+
       <a
         href="https://www.twitter.com"
         target="_blank"

@@ -44,7 +44,7 @@ const TimingLinks = () => {
               href="https://open.spotify.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-yellow-600 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaSpotify size={20} />
@@ -56,7 +56,7 @@ const TimingLinks = () => {
               href="https://music.apple.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-yellow-600 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaApple size={20} />
@@ -68,7 +68,7 @@ const TimingLinks = () => {
               href="https://www.boomplay.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-yellow-600 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaMusic size={20} />
@@ -80,7 +80,7 @@ const TimingLinks = () => {
               href="https://soundcloud.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-yellow-600 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaSoundcloud size={20} />
@@ -92,7 +92,7 @@ const TimingLinks = () => {
               href="https://www.deezer.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-yellow-600 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaDeezer size={20} />
@@ -104,7 +104,7 @@ const TimingLinks = () => {
               href="https://music.youtube.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-yellow-600 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaYoutube size={20} />
