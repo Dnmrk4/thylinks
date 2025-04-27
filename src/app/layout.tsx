@@ -29,12 +29,33 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex flex-col mx-auto my-auto justify-center">
-          <div className="fixed top-0 h-auto m-0  left-0 w-full  ">
+        {/* Video Background */}
+        <div className="absolute inset-0 -z-10">
+          <video
+            className="w-full h-full object-cover"
+            src="/test.mp4"
+            autoPlay
+            loop
+            muted
+          />
+          {/* Black Overlay */}
+          <div className="absolute inset-0 bg-black/50" />
+        </div>
+
+        {/* Main Content */}
+        <div className="flex flex-col min-h-screen relative">
+          {/* Navbar */}
+          <div className="fixed top-0 left-0 w-full z-10">
             <Navbarz />
           </div>
-          {children}
-          <div className="mx-auto">
+
+          {/* Scrollable Content */}
+          <main className="flex-grow mx-auto w-full z-0 scroll-auto">
+            {children}
+          </main>
+
+          {/* Footer */}
+          <div className="w-full z-10">
             <Footer />
           </div>
         </div>
