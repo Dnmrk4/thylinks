@@ -1,6 +1,4 @@
-import Footer from "@/components/footer";
 import Music from "@/components/music";
-import Navbarz from "@/components/navbar";
 import Videos from "@/components/videos";
 import { Metadata } from "next";
 

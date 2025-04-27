@@ -1,14 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Footer from "@/components/footer";
-import Navbarz from "@/components/navbar";
 
 const FyiLinks = () => {
   return (
     <>
-      {/* <div className="fixed top-0 h-auto left-0 w-full  ">
-        <Navbarz />
-      </div> */}
       <div className="flex flex-col  justify-center m-7 p-7 mx-auto">
         <Image
           src="/fyi.jpg"
@@ -33,9 +28,6 @@ const FyiLinks = () => {
           links
         </div>
       </div>
-      {/* <div>
-        <Footer />
-      </div> */}
     </>
   );
 };
