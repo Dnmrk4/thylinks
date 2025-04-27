@@ -7,79 +7,89 @@ import Link from "next/link";
 function Music() {
   return (
     <>
-      <div className="flex flex-col justify-center mx-auto">
-        <h2 className="text-md text-center font-bold mx-auto ">Music</h2>
-        <div className="flex md:flex-row flex-wrap justify-center">
-          {/* the row */}
+      <div className="flex flex-col max-w-screen w-full overflow-hidden justify-center mx-auto">
+        <h2 className="text-md text-center  font-bold mx-auto">Music</h2>
+        <div className="flex flex-row md:flex-wrap mx-auto justify-center max-w-screen w-full overflow-hidden scroll-auto scrollbar-hide">
+          {/* Card 1 */}
           <Link href="/shirolinks">
-            <div className="flex flex-col">
-              {/* card 1, for shiro */}
-              <div className="mt-1 p-3 max-w-sm rounded-sm overflow-hidden shadow-lg">
-                <div className="relative md:h-47 md:w-47 h-20 w-20">
+            <div className="flex flex-col items-center">
+              <div className="mt-1 p-3 rounded-sm overflow-hidden shadow-lg">
+                <div className="relative h-19 w-19 md:h-48 md:w-48">
                   <Image
                     src="/shiro.jpg"
-                    alt=""
+                    alt="Shiro"
                     fill
-                    className="object-cover"
+                    className="object-cover rounded-md"
                   />
                 </div>
               </div>
-              <div className="mx-auto items-center text-center px-auto mt-[-12px]">
-                <div className="font-bold md:text-xl md:w-40 text-[7px] w-20 ">
+              <div className="text-center mt-2">
+                <p className="font-bold text-[10px] md:text-lg w-20 md:w-48">
                   SHIRO - Marcus THY Rapper
-                </div>
+                </p>
               </div>
             </div>
           </Link>
-          {/* card 2 */}
+
+          {/* Card 2 */}
           <Link href="/timingyaGodlinks">
-            <div className="flex flex-col">
-              {/* card 2, for shiro */}
-              <div className="mt-1 p-3 max-w-sm rounded-sm overflow-hidden shadow-lg">
-                <div className="relative md:h-47 md:w-47 h-20 w-20">
+            <div className="flex flex-col items-center">
+              <div className="mt-1 p-3 rounded-sm overflow-hidden shadow-lg">
+                <div className="relative h-19 w-19 md:h-48 md:w-48">
                   <Image
                     src="/timing.jpg"
-                    alt=""
+                    alt="Timing ya God"
                     fill
-                    className="object-cover"
+                    className="object-cover rounded-md"
                   />
                 </div>
               </div>
-              <div className="mx-auto items-center text-center px-auto mt-[-12px]">
-                <div className="font-bold w-20 md:w-40 md:text-xl text-[7px] ">
+              <div className="text-center mt-2">
+                <p className="font-bold text-[10px] md:text-lg w-20 md:w-48">
                   Timing ya God - Marcus THY Rapper
-                </div>
+                </p>
               </div>
             </div>
           </Link>
-          {/* card 3 */}
+
+          {/* Card 3 */}
           <Link href="/likeyuuhlinks">
-            <div className="flex flex-col">
-              {/* card 3, for shiro */}
-              <div className="mt-1 p-3 max-w-sm rounded-sm overflow-hidden shadow-lg">
-                <div className="relative md:h-47 md:w-47 h-20 w-20">
-                  <Image src="/yuuh.jpg" alt="" fill className="object-cover" />
+            <div className="flex flex-col items-center">
+              <div className="mt-1 p-3 rounded-sm overflow-hidden shadow-lg">
+                <div className="relative h-19 w-19 md:h-48 md:w-48">
+                  <Image
+                    src="/yuuh.jpg"
+                    alt="Like Yuuh!"
+                    fill
+                    className="object-cover rounded-md"
+                  />
                 </div>
               </div>
-              <div className="mx-auto items-center text-center px-auto mt-[-12px]">
-                <div className="font-bold w-20 md:w-40 md:text-xl text-[7px]">
+              <div className="text-center mt-2">
+                <p className="font-bold text-[10px] md:text-lg w-20 md:w-48">
                   Like Yuuh! - Marcus THY Rapper ft Blacowp
-                </div>
+                </p>
               </div>
             </div>
           </Link>
+
+          {/* Card 4 */}
           <Link href="/fyilinks">
-            <div className="flex flex-col">
-              {/* card 3, for shiro */}
-              <div className="mt-1 p-3 max-w-sm rounded-sm overflow-hidden shadow-lg">
-                <div className="relative md:h-47 md:w-47 h-20 w-20">
-                  <Image src="/fyi.jpg" alt="" fill className="object-cover" />
+            <div className="flex flex-col items-center">
+              <div className="mt-1 p-3 rounded-sm overflow-hidden shadow-lg">
+                <div className="relative h-19 w-19 md:h-48 md:w-48">
+                  <Image
+                    src="/fyi.jpg"
+                    alt="FYI"
+                    fill
+                    className="object-cover rounded-md"
+                  />
                 </div>
               </div>
-              <div className="mx-auto items-center text-center px-auto mt-[-12px]">
-                <div className="font-bold w-20 md:w-40 md:text-xl text-[7px]">
+              <div className="text-center mt-2">
+                <p className="font-bold text-[10px] md:text-lg w-20 md:w-48">
                   FYI - Mutwiri ft Marcus THY Rapper
-                </div>
+                </p>
               </div>
             </div>
           </Link>
