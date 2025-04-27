@@ -1,15 +1,18 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 function Navbarz() {
   return (
     <>
-      <div className="p-2 bg-black/0">
-        <div className="mx-auto my-auto  text-center items-center p-4">
-          <p className="md:text-5xl text-3xl text-shadow font-bold md:font-extrabold  text-white ">
-            MARCUS THY RAPPER
-          </p>
+      <div className="relative  p-2 justify-center">
+        <div className="mx-auto m-auto   text-center  p-4">
+          <Link href="/">
+            <p className="md:text-5xl text-2xl  text-shadow font-bold md:font-extrabold text-nowrap text-white ">
+              MARCUS THY RAPPER
+            </p>
+          </Link>
         </div>
       </div>
     </>

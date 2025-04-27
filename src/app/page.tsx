@@ -11,17 +11,13 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <div className="relative w-full justify-center h-screen flex flex-col items-center object-center overflow-hidden">
-        <div className="fixed top-0 h-auto left-0 w-full  ">
-          <Navbarz />
-        </div>
-        <div className="mx-auto ">
+      <div className="relative w-full justify-center h-full flex flex-col items-center object-center overflow-hidden">
+        <div className="mx-auto mt-20">
           <Music />
         </div>
-        <div className="flex items-center mx-auto flex-col md:flex-row">
+        <div className="flex m-3 items-center mx-auto flex-col md:flex-row">
           <Videos />
         </div>
-        <Footer />
       </div>
     </>
   );
