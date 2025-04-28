@@ -1,52 +1,62 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import {
   FaSpotify,
   FaApple,
   FaYoutube,
   FaDeezer,
-  FaAmazon,
   FaMusic,
-  FaRecordVinyl,
   FaPlay,
+  FaAmazon,
   FaDownload,
 } from "react-icons/fa";
+import IndexPage from "@/components/title";
 
-const ShiroLinks = () => {
+const TimingLinks = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const togglePlay = () => {
+    setIsPlaying(!isPlaying);
+  };
+
   return (
     <>
+      <IndexPage title="Timing ya God" />
+
       <div className="flex flex-col justify-center m-7 p-7 mx-auto">
         <Image
-          src="/shiro.jpg"
+          src="/timing.jpg"
           alt=""
           fill
           className="object-cover min-h-screen z-[-1] blur-md"
         />
         <div className="flex flex-col mx-auto justify-center">
           {/* Card */}
-          <div className="mt-1 p-3 max-w-sm rounded-md overflow-hidden">
+          <div className="mt-1 p-3 max-w-sm rounded-md overflow-hidden relative">
             <div className="relative md:h-47 md:w-47 h-40 w-40 shadow-lg drop-shadow-black">
               <Image
-                src="/shiro.jpg"
+                src="/timing.jpg"
                 alt=""
                 fill
                 className="object-cover rounded-md"
               />
+              {/* Play/Pause Button */}
             </div>
           </div>
           <div className="mx-auto items-center text-center px-auto mt-[-3px]">
-            <div className="font-bold md:text-xl text-gray-200 md:w-40 text-[10px] w-25">
-              SHIRO - Marcus THY Rapper
+            <div className="font-bold md:text-xl text-amber-50 md:w-40 text-[10px] w-25">
+              Timing ya God - Marcus THY Rapper
             </div>
           </div>
         </div>
-        <div className="w-70 h-auto mx-auto p-12 mt-12 rounded-md shadow-md bg-blue-50/70 shadow-blue text-black">
+        <div className="w-70 h-auto mx-auto p-12 mt-12 rounded-md shadow-md bg-gray-50/70 shadow-blue">
           <div className="flex flex-col gap-4">
             <a
-              href="https://open.spotify.com/track/4b5qC4RGyoGXO6tQ3ZU3BY?si=2dc1bd43f30f4791"
+              href="https://open.spotify.com/track/3LLWziC1tpVcP3egWXkT6N?si=1f285c747db045bc"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-neutral-700 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaSpotify size={20} />
@@ -55,10 +65,10 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://music.apple.com/us/song/shiro/1806176500"
+              href="https://music.apple.com/us/song/timing-ya-god/1706731532"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-neutral-700 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaApple size={20} />
@@ -67,10 +77,10 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://www.boomplay.com/songs/200830980?srModel=COPYLINK&srList=WEB"
+              href="https://www.boomplay.com/songs/139852765?srModel=COPYLINK&srList=WEB"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-neutral-700 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaMusic size={20} />
@@ -80,10 +90,10 @@ const ShiroLinks = () => {
             </a>
 
             <a
-              href="https://dzr.page.link/DocpcY3TerJb9Wyy8"
+              href="https://dzr.page.link/eGX7m2WLYzM6XDHa8"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-neutral-700 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaDeezer size={20} />
@@ -92,10 +102,10 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://music.youtube.com/playlist?list=OLAK5uy_kr86AmSXlhvP-OdyWu_1APd3t-Bs8GOqo&si=RmH5saNdlF1c-1Dk"
+              href="https://music.youtube.com/playlist?list=OLAK5uy_kCIjqlPGshE7ZNENH2Y8yfW_BeNEDMjw0&si=GD8UNhoUaXKiUMIW"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-neutral-700 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaYoutube size={20} />
@@ -104,26 +114,14 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://amazon.com/music/player/albums/B0F3Y2ZHGH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_CBRXNm2hxQdYVODclDT7Newnu"
+              href="https://amazon.com/music/player/tracks/B0CHQQMQ16?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_XfSR9WEdho4ms1UQMlrmTNGQB"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between text-neutral-700 hover:underline"
+              className="flex items-center justify-between text-yellow-700 hover:underline"
             >
               <div className="flex items-center gap-2">
                 <FaAmazon size={20} />
                 Amazon Music
-              </div>
-              <FaDownload size={16} />
-            </a>
-            <a
-              href="https://www.qobuz.com/us-en/album/shiro-marcus-thy-rapper/fqmd6awcva6ua"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-between text-neutral-700 hover:underline"
-            >
-              <div className="flex items-center gap-2">
-                <FaRecordVinyl size={20} />
-                Qobuz
               </div>
               <FaDownload size={16} />
             </a>
@@ -134,4 +132,4 @@ const ShiroLinks = () => {
   );
 };
 
-export default ShiroLinks;
+export default TimingLinks;

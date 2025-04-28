@@ -8,10 +8,13 @@ import {
   FaAmazon,
   FaYoutube,
 } from "react-icons/fa";
+import IndexPage from "@/components/title";
 
 const FyiLinks = () => {
   return (
     <>
+      <IndexPage title="FYI" />
+
       <div className="flex flex-col  justify-center m-7 p-7 mx-auto">
         <Image
           src="/fyi.jpg"
