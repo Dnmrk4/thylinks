@@ -10,6 +10,7 @@ import {
   FaMusic,
   FaRecordVinyl,
   FaPlay,
+  FaDownload,
 } from "react-icons/fa";
 
 const ShiroLinks = () => {
@@ -43,7 +44,7 @@ const ShiroLinks = () => {
         <div className="w-70 h-auto mx-auto p-12 mt-12 rounded-md shadow-md bg-blue-50/70 shadow-blue text-black">
           <div className="flex flex-col gap-4">
             <a
-              href="https://open.spotify.com"
+              href="https://open.spotify.com/track/4b5qC4RGyoGXO6tQ3ZU3BY?si=2dc1bd43f30f4791"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
@@ -55,7 +56,7 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://music.apple.com"
+              href="https://music.apple.com/us/song/shiro/1806176500"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
@@ -67,7 +68,7 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://www.boomplay.com"
+              href="https://www.boomplay.com/songs/202990835?srModel=COPYLINK&srList=WEB"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
@@ -78,20 +79,9 @@ const ShiroLinks = () => {
               </div>
               <FaPlay size={16} />
             </a>
+
             <a
-              href="https://soundcloud.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-between text-neutral-700 hover:underline"
-            >
-              <div className="flex items-center gap-2">
-                <FaSoundcloud size={20} />
-                SoundCloud
-              </div>
-              <FaPlay size={16} />
-            </a>
-            <a
-              href="https://www.deezer.com"
+              href="https://dzr.page.link/DocpcY3TerJb9Wyy8"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
@@ -103,7 +93,7 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://music.youtube.com"
+              href="https://music.youtube.com/playlist?list=OLAK5uy_kr86AmSXlhvP-OdyWu_1APd3t-Bs8GOqo&si=RmH5saNdlF1c-1Dk"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
@@ -115,7 +105,7 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://music.amazon.com"
+              href="https://www.amazon.com/SHIRO/dp/B0F15NQ75B"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
@@ -124,10 +114,10 @@ const ShiroLinks = () => {
                 <FaAmazon size={20} />
                 Amazon Music
               </div>
-              <FaPlay size={16} />
+              <FaDownload size={16} />
             </a>
             <a
-              href="https://www.qobuz.com"
+              href="https://www.qobuz.com/us-en/album/shiro-marcus-thy-rapper/fqmd6awcva6ua"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
@@ -136,7 +126,7 @@ const ShiroLinks = () => {
                 <FaRecordVinyl size={20} />
                 Qobuz
               </div>
-              <FaPlay size={16} />
+              <FaDownload size={16} />
             </a>
           </div>
         </div>
