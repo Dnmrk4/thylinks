@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import {
   FaSpotify,
@@ -14,12 +14,6 @@ import {
 import IndexPage from "@/components/title";
 
 const TimingLinks = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const togglePlay = () => {
-    setIsPlaying(!isPlaying);
-  };
-
   return (
     <>
       <IndexPage title="Timing ya God" />
