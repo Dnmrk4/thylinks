@@ -10,7 +10,7 @@ function Footer() {
         </div>
         <div className="w-full h-auto  z-10">
           <div className="mx-auto m-auto text-center  z-10 bottom-0">
-            <p className="text-nowrap  text-white text-center  text- md:text-lg">
+            <p className="text-nowrap fottto text-white text-center  text- md:text-lg">
               © 2025 danmarkmutai
             </p>
           </div>

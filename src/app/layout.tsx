@@ -28,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <SpeedInsights />
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -52,7 +53,7 @@ export default function RootLayout({
           </div>
 
           {/* Scrollable Content */}
-          <main className="flex-grow mx-auto w-full z-0 px-4 py-8 md:px-8 md:py-12">
+          <main className="flex-grow w-full z-0 px-0 py-8 md:px-8 md:py-12">
             {children}
           </main>
 

@@ -28,7 +28,7 @@ const videos = [
 export default function Videos() {
   return (
     <div className="flex flex-col mx-auto mt-0 justify-center relative text-white overflow-scroll">
-      <h1 className="text-xl font-bold  mb-6 text-center">Videos</h1>
+      <h2 className="text-3xl font-bold  mb-6 text-center flowty ">Videos</h2>
 
       {/* Video Cards */}
       <div className="flex flex-row gap-3 overflow-x-scroll scroll-smooth snap-x scrollbar-hide md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6">
@@ -48,7 +48,9 @@ export default function Videos() {
             ></iframe>
             {/* Title */}
             <div className="mt-2">
-              <h2 className="text-xs text-center font-medium">{video.title}</h2>
+              <h2 className="text-xs text-center font-medium gotham">
+                {video.title}
+              </h2>
             </div>
           </div>
         ))}

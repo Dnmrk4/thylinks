@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <div className="relative w-full  flex flex-col items-center justify-start text-center gap-12 overflow-hidden">
+      <div className="relative w-screen right-0 left-0 flex flex-col items-center justify-start text-center gap-12 overflow-hidden">
         {/* Music Section */}
-        <div className="mx-auto mt-4 md:mt-6 w-full px-4">
+        <div className="mx-auto m-4 mt-17 md:mt-6 ">
           <Music />
         </div>
 

@@ -67,7 +67,7 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://www.boomplay.com/songs/202990835?srModel=COPYLINK&srList=WEB"
+              href="https://www.boomplay.com/songs/200830980?srModel=COPYLINK&srList=WEB"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
@@ -104,7 +104,7 @@ const ShiroLinks = () => {
               <FaPlay size={16} />
             </a>
             <a
-              href="https://www.amazon.com/SHIRO/dp/B0F15NQ75B"
+              href="https://amazon.com/music/player/albums/B0F3Y2ZHGH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_CBRXNm2hxQdYVODclDT7Newnu"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between text-neutral-700 hover:underline"
