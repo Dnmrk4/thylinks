@@ -3,7 +3,6 @@ import Image from "next/image";
 import {
   FaSpotify,
   FaApple,
-  FaSoundcloud,
   FaYoutube,
   FaDeezer,
   FaAmazon,
