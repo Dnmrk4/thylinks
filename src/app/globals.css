@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
 @import url(https://use.typekit.net/zgm4tot.css);
 @import "tailwindcss";
 
@@ -35,9 +36,11 @@ font-weight: 700;
 font-style: normal;
 }
 .fottto {
-  font-family: "pf-signskript", sans-serif;
-  font-weight: 400;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
+}
 }
 .gotham {
   font-family: "greycliff-cf", sans-serif;
