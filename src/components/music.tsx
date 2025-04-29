@@ -11,7 +11,7 @@ function Music() {
         <h2 className="text-3xl text-center p-3 flowty mx-auto ">Music</h2>
         <div className="flex flex-row md:flex-wrap  mx-auto justify-center  w-full overflow-hidden scroll-auto scrollbar-hide">
           {/* Card 1 */}
-          <Link href="/shirolinks">
+          <Link href="/shiro">
             <div className="flex flex-col m-1 items-center ">
               <div className="mt-1  rounded-sm overflow-hidden shadow-lg">
                 <div className="relative  md:hover:h-49 md:hover:w-49 h-23 w-23 md:h-48 md:w-48">
@@ -32,7 +32,7 @@ function Music() {
           </Link>
 
           {/* Card 2 */}
-          <Link href="/timingyaGodlinks">
+          <Link href="/timing-ya-God">
             <div className="flex flex-col m-1 items-center">
               <div className="mt-1  rounded-sm overflow-hidden shadow-lg">
                 <div className="relative md:hover:h-49 md:hover:w-49 h-23 w-23 md:h-48 md:w-48">
@@ -53,7 +53,7 @@ function Music() {
           </Link>
 
           {/* Card 3 */}
-          <Link href="/likeyuuhlinks">
+          <Link href="/like-yuuh">
             <div className="flex flex-col m-1 items-center">
               <div className="mt-1  rounded-sm overflow-hidden shadow-lg">
                 <div className="relative  md:hover:h-49 md:hover:w-49 h-23 w-23 md:h-48 md:w-48">
@@ -74,7 +74,7 @@ function Music() {
           </Link>
 
           {/* Card 4 */}
-          <Link href="/fyilinks">
+          <Link href="/fyi">
             <div className="flex flex-col m-1 items-center">
               <div className="mt-1 rounded-sm overflow-hidden shadow-lg">
                 <div className="relative  md:hover:h-49 md:hover:w-49 h-23 w-23 md:h-48 md:w-48">
