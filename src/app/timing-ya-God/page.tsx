@@ -39,7 +39,7 @@ const TimingLinks = () => {
             </div>
           </div>
           <div className="mx-auto items-center text-center px-auto mt-[-3px]">
-            <div className="font-bold md:text-xl text-amber-50 md:w-40 text-[10px] w-25">
+            <div className="font-bold md:text-xl gotham text-amber-50 md:w-40 text-[10px] w-30">
               Timing ya God - Marcus THY Rapper
             </div>
           </div>

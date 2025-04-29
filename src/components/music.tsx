@@ -18,8 +18,8 @@ function Music() {
       <div className="flex flex-col max-w-screen w-full overflow-hidden justify-center mx-auto ">
         {!showIframe ? (
           <a href="#" onClick={handleClick}>
-            <p className="text-sm p-7 m-3 flowty animate-pulse text-center text-white drop-shadow-[0_0_10px_rgba(253,224,71,0.8)]">
-              Listen to my latest Hit!! 🔥
+            <p className="text-sm p-7 m-3 flowty gotham animate-pulse text-center text-white drop-shadow-[0_0_10px_rgba(253,224,71,0.8)]">
+              Listen to my latest Hit! 🔥
             </p>
           </a>
         ) : (
@@ -62,7 +62,7 @@ function Music() {
                 </div>
               </div>
               <div className="text-center mt-2">
-                <p className="font-bold text-[10px] md:text-lg w-20 md:w-48 gotham">
+                <p className="font-bold text-[10px] md:text-lg w-25 md:w-48 gotham">
                   SHIRO - Marcus THY Rapper
                 </p>
               </div>

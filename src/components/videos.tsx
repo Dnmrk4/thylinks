@@ -39,7 +39,7 @@ export default function Videos() {
           >
             {/* Video */}
             <iframe
-              className="w-full h-48  snap-center rounded-md"
+              className="w-full h-48 snap-center rounded-md"
               src={video.url}
               title={video.title}
               frameBorder="0"

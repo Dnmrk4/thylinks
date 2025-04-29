@@ -38,7 +38,7 @@ const ShiroLinks = () => {
             </div>
           </div>
           <div className="mx-auto items-center text-center px-auto mt-[-3px]">
-            <div className="font-bold md:text-xl text-gray-200 md:w-40 text-[10px] w-25">
+            <div className="font-bold gotham md:text-xl text-gray-200 md:w-40 text-[10px] w-30">
               SHIRO - Marcus THY Rapper
             </div>
           </div>

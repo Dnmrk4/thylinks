@@ -37,7 +37,7 @@ const LikeLinks = () => {
             </div>
           </div>
           <div className="mx-auto items-center text-center px-auto mt-[-3px]">
-            <div className="font-bold md:text-xl text-background stroke-3 stroke-white md:w-40 text-[10px] w-25">
+            <div className="font-bold md:text-xl gotham text-background stroke-3 stroke-white md:w-40 text-[10px] w-35">
               Like Yuuh! - Marcus THY Rapper ft Blacowp
             </div>
           </div>
