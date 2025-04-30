@@ -17,9 +17,32 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Marcus THY Rapper - Official Website",
-  description: "Explore Marcus THY Rapper's music, videos, and more.",
+  description:
+    "Explore Marcus THY Rapper's music, videos, and more. Stay updated with the latest releases and content from one of Kenya's top rappers.",
   keywords:
-    "Marcus THY Rapper, thy rapper, marcusthyrapper, rappers in eldy, rappers in eldoret, rappers in kenya, kenyan rappers, marcus thy rapper official website, thy rapper official website, marcus thy rapper music, marcus thy rapper videos, marcus thy rapper songs, marcus thy rapper albums, marcus thy rapper singles, marcus thy rapper discography, marcus thy rapper biography, marcus thy rapper news, marcus thy rapper updates, marcus thy rapper social media, THY, shiro thy,thy shiro",
+    "Marcus THY Rapper, thy rapper, marcusthyrapper, rappers in eldy, rappers in eldoret, rappers in kenya, kenyan rappers, marcus thy rapper official website, thy rapper official website, marcus thy rapper music, marcus thy rapper videos, marcus thy rapper songs, marcus thy rapper albums, marcus thy rapper singles, marcus thy rapper discography, marcus thy rapper biography, marcus thy rapper news, marcus thy rapper updates, marcus thy rapper social media, THY, shiro thy, thy shiro, hip hop kenya, kenyan hip hop artist",
+  openGraph: {
+    title: "Marcus THY Rapper - Official Website",
+    description:
+      "Explore Marcus THY Rapper's music, videos, and more. Stay updated with the latest releases and content from one of Kenya's top rappers.",
+    url: "https://marcusthyrapper.vercel.app",
+    images: [
+      {
+        url: "/images/pwa/screenshot2.jpg",
+        width: 1080,
+        height: 540,
+        alt: "Marcus THY Rapper - Official Website",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Marcus THY Rapper - Official Website",
+    description:
+      "Explore Marcus THY Rapper's music, videos, and more. Stay updated with the latest releases and content from one of Kenya's top rappers.",
+    images: ["/images/pwa/screenshot2.jpg"],
+  },
 };
 
 export default function RootLayout({
