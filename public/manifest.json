@@ -1,0 +1,76 @@
+{
+  "short_name": "marcusthyrapper.vercel.app",
+  "name": "Marcus THY Rapper",
+  "description": "Explore Marcus THY Rapper's official website.",
+  "iconPath": "/images/favicon.ico",
+  "providedBy": {
+    "name": "Marcus THY Rapper",
+    "url": "https://x.com/MarcusThy"
+  },
+  "icons": [
+    {
+      "src": "/images/icons/apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/apple-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/apple-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "display": "standalone",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#000",
+  "scope": "/",
+  "theme_color": "#000",
+  "shortcuts": [
+    {
+      "name": "Music - Marcus THY Rapper",
+      "short_name": "Music",
+      "description": "Explore Marcus THY Rapper's music.",
+      "url": "/music?source=pwa",
+      "icons": [
+        {
+          "src": "/images/icons/apple-icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Videos - Marcus THY Rapper",
+      "short_name": "Videos",
+      "description": "Watch Marcus THY Rapper's videos.",
+      "url": "/videos?source=pwa",
+      "icons": [
+        {
+          "src": "/images/icons/apple-icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot2.png",
+      "type": "image/png",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ]
+}

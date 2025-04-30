@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Marcus THY Rapper - Official Website",
-  description: "Explore Marcus THY Rapper's music, videos, and more.",
-  keywords:
-    "Marcus THY Rapper, thy rapper, marcusthyrapper, rappers in eldy, rappers in eldoret, rappers in kenya, kenyan rappers, marcus thy rapper official website, thy rapper official website, marcus thy rapper music, marcus thy rapper videos, marcus thy rapper songs, marcus thy rapper albums, marcus thy rapper singles, marcus thy rapper discography, marcus thy rapper biography, marcus thy rapper news, marcus thy rapper updates, marcus thy rapper social media, THY, shiro thy,thy shiro",
-};
+// export const metadata: Metadata = {
+//   title: "Marcus THY Rapper - Official Website",
+//   description: "Explore Marcus THY Rapper's music, videos, and more.",
+//   keywords:
+//     "Marcus THY Rapper, thy rapper, marcusthyrapper, rappers in eldy, rappers in eldoret, rappers in kenya, kenyan rappers, marcus thy rapper official website, thy rapper official website, marcus thy rapper music, marcus thy rapper videos, marcus thy rapper songs, marcus thy rapper albums, marcus thy rapper singles, marcus thy rapper discography, marcus thy rapper biography, marcus thy rapper news, marcus thy rapper updates, marcus thy rapper social media, THY, shiro thy,thy shiro",
+// };
 
 export default function RootLayout({
   children,
