@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className="relative w-screen right-0 left-0 flex flex-col items-center justify-start text-center gap-12 overflow-hidden">
         {/* Music Section */}
-        <div className="mx-auto m-4 mt-17 md:mt-35 ">
+        <div className="mx-auto m-4 mt-17 md:mt-25 ">
           <Music />
         </div>
 
