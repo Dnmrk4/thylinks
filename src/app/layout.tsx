@@ -27,7 +27,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* Video Background */}
-        <div className="absolute inset-0 -z-10 h-screen">
+        <div className="absolute inset-0 -z-10 h-full w-full">
           <video
             className="w-full h-full object-cover"
             src="/test.mp4"
